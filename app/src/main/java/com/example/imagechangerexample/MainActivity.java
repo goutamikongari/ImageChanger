@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
                     swap=false;
                 }
                 else {
+                    //change image
                     swap=true;
                     img.setImageDrawable(getResources().getDrawable(imgs[1]));
 
